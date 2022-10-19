@@ -1,0 +1,99 @@
+/* This is the stylesheet for my PORTAL PAGE. For site styles, see website -> css -> styles.css */
+
+/* Styles which apply to elements on the entire page*/
+ul {
+    list-style-type: none;
+}
+
+a {
+    color:mediumseagreen;
+    text-decoration: none;
+}
+
+body {
+    background: pink;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
+
+/* Styles which apply to large containers */
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background: oldlace;
+    margin-bottom: 15px;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    background: oldlace;
+    width: 65vw;
+}
+
+aside {
+    background: oldlace;
+    width: 30vw;
+}
+
+    aside h3 {
+        margin-left: 10px;
+    }
+
+    aside p {
+        text-align: center;
+    }
+
+footer {
+    background: oldlace;
+}
+
+footer ul {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 15px auto;
+}
+
+footer li {
+    justify-content: center;
+    margin: 0px 15px;
+}
+
+/* Styles which apply to smaller elements or sub-containers */
+
+.heart {
+    width: 3%;
+    margin: 1%;
+}
+
+header nav {
+    margin: auto;
+}
+
+.mampPhoto {
+    width: 40%;
+    margin: auto;
+}
+
+#myPhoto {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#aboutMe {
+    text-align: center;
+    margin: 10px;
+}
