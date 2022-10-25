@@ -15,8 +15,8 @@
         <!-- Navigation to Weekly Assignments -->
             <img class="heart" src="images/floating-green-hearts.gif" alt="Four green pixel hearts floating up and down">
             <nav>
-                <a href=" ">Week 3: Switch | </a>
-                <a href=" ">Week 4: Troubleshooting | </a>
+                <a href="./website/daily.php">Week 3: Switch | </a>
+                <a href="./website/troubleshooting.php">Week 4: Troubleshooting | </a>
                 <a href=" ">Week 5: Calculator | </a>
                 <a href=" ">Week 6: Email | </a>
                 <a href=" ">Week 7: Gallery | </a>
