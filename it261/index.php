@@ -17,7 +17,7 @@
             <nav>
                 <a href="./website/daily.php">Week 3: Switch | </a>
                 <a href="./website/troubleshooting.php">Week 4: Troubleshooting | </a>
-                <a href=" ">Week 5: Calculator | </a>
+                <a href="./website/calculator.php">Week 5: Calculator | </a>
                 <a href=" ">Week 6: Email | </a>
                 <a href=" ">Week 7: Gallery | </a>
                 <a href=" ">Week 8: Database | </a>
@@ -54,8 +54,8 @@
                     </nav>
                 <h3>Week 4</h3>
                     <nav>
-                    <ul>
-                            <li><a href="weeks/week4/arithmetic-form">arithmetic-form.php</a></li>
+                        <ul>
+                            <li><a href="weeks/week4/arithmetic-form.php">arithmetic-form.php</a></li>
                             <li><a href="weeks/week4/celcius.php">celcius.php</a></li>
                             <li><a href="weeks/week4/form-get.php">form-get.php</a></li>
                             <li><a href="weeks/week4/form1.php">form1.php</a></li>
@@ -65,7 +65,12 @@
                     </nav>
                 <h3>Week 5</h3>
                     <nav>
-                        <p>Coming soon!</p>
+                        <ul>
+                            <li><a href="weeks/week5/currency1.php">currency1.php</a></li>
+                            <li><a href="weeks/week5/currency2.php">currency2.php</a></li>
+                            <li><a href="weeks/week5/currency3.php">currency3.php</a></li>
+                            <li><a href="weeks/week5/null.php">null.php</a></li>
+                        </ul>
                     </nav>
                 <h3>Week 6</h3>
                     <nav>
