@@ -1,0 +1,67 @@
+/* styles for week 6! */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: lightpink;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+fieldset {
+    border: 2px solid plum;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+input [type=text],
+input [type=email],
+input [type=tel] {
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+input [type=submit] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form ul {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+li input {
+    margin-right: 7px;
+}
+
+.box {
+    width: 400px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+    display: block;
+}
