@@ -28,6 +28,9 @@ switch (THIS_PAGE) {
         $title = 'Gallery Page of our Website Project';
         $body = 'gallery inner';
         break;
+    case 'thx.php' :
+        $title = 'Thank-You Page for our Contact Form';
+        $body = 'thanks inner';
         
 }
 
@@ -40,6 +43,19 @@ $nav = array(
     'contact.php' => 'Contact',
     'gallery.php' => 'Gallery',
 );
+//This creates the links for my header, stolen from week 6
+function make_links($nav) {
+    $my_return = '';
+    foreach ($nav as $key => $value) {
+        if (THIS_PAGE == $key) {
+            $my_return .='<li><a style="color:red;"href="'.$key.'">'.$value.'</a></li>';
+        }
+        else {
+            $my_return .= '<li><a style="color:green" href="'.$key.'">'.$value.'</a></li>';
+        } 
+    }
+    return $my_return;
+} //end function
 ?>
 
 
@@ -55,19 +71,9 @@ $nav = array(
 <body class="<?php echo $body; ?>">
     <header>
         <div class="inner-header">
-            <a href="index.pho"> <img id="logo" src="images/logo.png" alt="PHP logo"> </a>
-            
+            <a href="index.php"> <img id="logo" src="images/logo.png" alt="PHP logo"> </a>
             <nav> 
-                <ul> <?php
-                    foreach ($nav as $key => $value) {
-                        if (THIS_PAGE == $key) {
-                            echo ('<li><a style="color:red;"href="'.$key.'">'.$value.'</a></li>');
-                        }
-                        else {
-                            echo ('<li><a style="color:green" href="'.$key.'">'.$value.'</a></li>');
-                        }        
-                    }
-                ?> </ul>
+                <ul> <?php echo make_links($nav); ?> </ul>
             </nav>
         </div>
         <!-- <nav>

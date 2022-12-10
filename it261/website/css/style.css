@@ -55,6 +55,10 @@ nav a {
     margin-bottom: 20px;
 }
 
+#hero img {
+    margin: 0px auto;
+}
+
 main {
     width:62%;
     background: lightblue;

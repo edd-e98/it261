@@ -1,10 +1,26 @@
 <!-- This is the code for my WEBSITE HOMEPAGE. For portal page, see IT261 -> index.php. -->
     <?php
-    include ('./includes/header.php');
+        function random_images($photos) {
+            $my_return='';
+            $i = rand(0, 6);
+            $selected_image = ''.$photos[$i].'.jpg';
+            $my_return = '<img src="images/'.$selected_image.'" alt="$selected_image">';
+            return $my_return; 
+        }
+        $photos[0] = 'ariel';
+        $photos[1] = 'aurora';
+        $photos[2] = 'cinderella';
+        $photos[3] = 'moana';
+        $photos[4] = 'mulan';
+        $photos[5] = 'rapunzel';
+        $photos[6] = 'tiana';
+        include ('./includes/header.php');
     ?>
     <div id="wrapper">
         <div id="hero">
-            <img src="images/twelve.jpg" alt="Seattle Seahawks Flag">
+            <?php
+                echo random_images($photos);
+             ?>
         </div>
         <!-- end hero -->
         <main>
@@ -25,5 +41,3 @@
     <?php
     include ('./includes/footer.php');
     ?>
-</body>
-</html>
