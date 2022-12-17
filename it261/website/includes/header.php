@@ -33,13 +33,12 @@ switch (THIS_PAGE) {
         $body = 'thanks inner';
         
 }
-
 // This is my navigational array, stolen from week 3
 $nav = array(
     'index.php' => 'Home',
     'about.php' => 'About',
     'daily.php' => 'Daily',
-    'project.php' => 'Project',
+    './ppl_database/people.php' => 'Project',
     'contact.php' => 'Contact',
     'gallery.php' => 'Gallery',
 );
@@ -66,7 +65,9 @@ function make_links($nav) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $title;?></title>
+    <link href="./css/styles.css" type="text/css" rel="stylesheet">
     <link href="./css/style.css" type="text/css" rel="stylesheet">
+
 </head>
 <body class="<?php echo $body; ?>">
     <header>
